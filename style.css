@@ -48,6 +48,7 @@
     margin-top: 8px;
     font-size: 14px;
     font-weight: 300;
+    outline: none;
 }
 
 .inputs > input:hover{
@@ -73,6 +74,7 @@ button{
     cursor: pointer;
     border: none;
     outline: none;
+    transition: ease all 0.5s;
 }
 
 button:hover{
