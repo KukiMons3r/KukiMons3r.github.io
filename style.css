@@ -64,7 +64,7 @@
 }
 
 button{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 40%;
     background-color: #ffffff;
     color: #080710;
@@ -155,4 +155,25 @@ button:hover{
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+  }
+
+  .checkboxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .checkboxes2{
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .checkboxes2 > input{
+    vertical-align: middle;
+  }
+
+  .checkboxes2 > label{
+    vertical-align: middle;
   }
